@@ -1,0 +1,279 @@
+
+
+
+
+
+a:hover{
+text-decoration: none!important;
+color: white!important;
+}
+a{
+text-decoration: none;
+color: white!important;
+}
+body{
+background-color: #161A1A!important;
+}
+p{
+color: white;
+margin-bottom: 0;
+}
+p,h5{
+font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+font-weight: bold;
+}
+header { height: 65px;
+background-color: rgba(22,26,26,0.9);
+color: white;
+z-index: 10;
+position: fixed;
+}
+header p {font-weight: normal; font-size: 22px; line-height: 65px; letter-spacing: 6px; }
+header p span {font-weight: bold; font-family: "Montserrat", sans-serif; }
+.head{
+width: 75%;
+margin: auto;
+}
+.clear{
+clear: both;
+}
+.head-btn{
+width: 25%;
+position: absolute;
+top:  30%;
+}
+.library-btn{
+margin-right: 5%;
+font-size: 13px;
+color: grey;
+background-color: #161A1A;
+padding: 4px;
+padding-right: 20px;
+padding-left: 20px;
+border-radius: 20px;
+background-color: #161A1A;
+color: white;
+border: 1px white solid;
+transition: .3s ;
+-webkit-transform: scale(1);
+transform: scale(1);
+display: inline-block;
+}
+.library-btn:hover{
+	border: 1px black solid;
+background-color: white;
+color: black!important;
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+.wrap{
+width: 75%;
+margin: 0 auto;
+}
+.center-contents{
+overflow: hidden;
+}
+.center-contents-title{
+
+margin-top: 50px;
+margin-bottom: 0;
+}
+.center-contents-title h5{
+color: white;
+width: 50%;
+float: left;
+}
+.center-contents-title a{
+float: right;
+margin-right: 3%;
+
+}
+.center-contents-title a{
+transition: .3s;
+-webkit-transform: scale(1);
+transform: scale(1);
+}
+.center-contents-title a:hover{
+-webkit-transform: scale(1.2) rotate(3deg);
+
+
+}
+.center-contents-title p:hover{
+color: #DDFFFF;
+}
+.center-content{
+margin-top: 2%;
+display: flex;
+width: 32%;
+height: 200px;
+float: left;
+background-size: cover;
+padding: 20px;
+margin-right: 1%;
+position: relative;
+border-radius: 10px;
+}
+.center-box{
+width: 100%;
+position: absolute;
+top: 25%;
+}
+.center-box img{
+width: 100px;
+height: 100px;
+float: left;
+min-width: 0;
+margin-right: 2%;
+}
+.center-box p{
+margin-bottom: 10px;
+max-width: 100%;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+width: 60%;
+}
+.original-contents{
+overflow: hidden;
+}
+.original-content{
+float: left;
+margin-right: 3%;
+margin-bottom: 30px;
+width: 17%;
+min-width: 0;
+}
+.original-title{
+color: white;
+clear: both;
+padding-top: 5%;
+margin-bottom: 3%;
+}
+.original-content img{
+width: 100%;
+}
+.original-content p{
+margin-bottom: 0;
+font-size: 10px;
+max-width: 100%;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+.podcast-title{
+clear: both;
+padding-top: 5%;
+margin-bottom: 3%;
+color: white;
+}
+.footer-wrap {margin-bottom: 50px;}
+.footer-contents img { width: 85px; }
+.footer{
+background-color: white;
+overflow: hidden;
+clear: both;
+}
+.footer a{
+color: black!important;
+margin-right: 2%;
+letter-spacing: 3px;
+font-size: 13px;
+}
+.footer-contents{
+width: 75%;
+margin: auto;
+height: 200px;
+margin-top: 3%;
+}
+.info{
+margin-top: 2%;
+}
+.podcast-contents{
+overflow: hidden;
+margin-bottom: 50px;
+}
+.podcast-content{
+float: left;
+margin-right: 3%;
+margin-bottom: 30px;
+min-width: 0;
+width: 17%;
+}
+.podcast-content img{
+width: 100%;
+}
+.podcast-content p{
+margin-bottom: 0;
+font-size: 10px;
+max-width: 100%;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+.company-sentence h5{
+font-size: 15px;
+}
+.company-sentence {
+color: white;
+}
+.company-title{
+font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+color: white;
+}
+p.company-sentence{
+font-size: 13px;
+}
+h5.company-sentence{
+font-size: 17px;
+}
+.terms-sentence {
+color: white;
+}
+.terms-contents h5{
+font-size: 15px;
+}
+.terms-contents p{
+font-size: 13px;
+}
+.terms-title{
+font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+color: white;
+}
+.privacypolicy-title{
+font-family: 'Montserrat','bold';
+color: white;
+}
+.privacypolicy-sentence{
+font-size: 13px;
+color: white;
+}
+.privacypolicy-contents{
+margin-bottom: 10%;
+}
+.footer-2{
+background-color: black;
+overflow: hidden;
+}
+.footer-2 a{
+color: white;
+margin-right: 5%;
+letter-spacing: 3px;
+}
+.footer-contents-2{
+width:  70%;
+margin: auto;
+height: 170px;
+margin-top: 5%;
+}
+.footer-contents-2 img{
+width: 10%;
+}
+.info-2{
+margin-top: 5%;
+}
+.orijinal-sp{
+width: 	%;
+}
+.orijinal-sp img{
+width: 100px;
+}

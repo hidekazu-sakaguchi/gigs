@@ -1,0 +1,8 @@
+（使用例１）
+<a class="ap_music" href="音楽ファイルパス" data-title="曲名" data-artist="アーティスト名" data-image="サムネイル画像パス" onclick="return false;"><img src="画像パス"/></a>
+
+（使用例２）
+<button class="ap_music" data-music="音楽ファイルパス" data-title="曲名" data-artist="アーティスト名" data-image="サムネイル画像パス">曲を再生</button>
+
+（使用例３）
+<div class="ap_music" data-music="音楽ファイルパス" data-title="曲名" data-artist="アーティスト名" data-image="サムネイル画像パス" data-state="pause">曲を一時停止状態で再生</div>
